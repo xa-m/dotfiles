@@ -1,3 +1,4 @@
+# home server test #
 # dotfiles #
 
 Configs for the programs that I use sometimes.

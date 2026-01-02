@@ -19,6 +19,9 @@
 (load-file "~/.emacs.custom")
 (add-to-list 'default-frame-alist '(font . "Iosevka-20"))
 (set-face-attribute 'default nil :font "Iosevka-20")
+(when (eq system-type 'darwin)
+  (setq mac-command-modifier 'meta))
+
 ;; PACKAGES
 (load "~/emacs/external_packages.el")
 ;; OTHER FILES
